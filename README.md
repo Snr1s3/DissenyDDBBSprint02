@@ -1,4 +1,4 @@
-# Entitats i Atributs
+# Model Relacional
 
 ## USER
 Un **USER** està identificat per un identificador propi, també té un nom i cognom a més del seu nom d'usuari, també té el DNI, mail i contrasenya. També té data de creació i data de modificació.
@@ -17,7 +17,7 @@ Un **ACCESS** està identificat per un identificador propi, també té el id de 
         on user_id Referència USER(id)
         on room_id Referència ROOM(id)
 
-# Model Relacional
+# Model Entitat Relació
 
 <a href="./ddbb.png">
     <img src="./ddbb.png" alt="Model Relacional">
