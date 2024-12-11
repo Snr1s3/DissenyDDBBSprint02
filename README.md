@@ -1,9 +1,9 @@
 # Model Relacional
 
 ## USER
-Un **USER** està identificat per un identificador propi, també té un nom i cognom a més del seu nom d'usuari, també té el DNI, mail i contrasenya. També té data de creació i data de modificació.
+Un **USER** està identificat per un identificador propi, també té un nom i cognom a més del seu nom d'usuari, també té el DNI, mail, contrasenya, grup i el rol. També té data de creació i data de modificació.
 
-    USER (id (PK), name, surname, username, DNI, mail, password, created_at, updated_at)
+    USER (id (PK), name, surname, username, DNI, mail, password, groups, rol, created_at, updated_at)
 
 ## ROOM
 Un **ROOM** està identificat per un identificador propi, també té un nom, descripció i a quin edifici està ubicat. També té data de creació i data de modificació.   
